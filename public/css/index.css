@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e0e5ec;
+    /* Light grey background */
+}
+
+.main-container {
+    text-align: center;
+    background-color: #e0e5ec;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 8px 8px 16px #a3b1c6,
+        /* Outer shadow */
+        -8px -8px 16px #ffffff;
+    /* Inner light */
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+    font-size: 50px;
+    color: #4D5B6B;
+    /* Soft dark color for text */
+    text-shadow: 1px 1px 0px #a3b1c6,
+        /* Subtle text shadow for depth */
+        -1px -1px 0px #ffffff;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 1em;
+    text-decoration: none;
+    background: #e0e5ec;
+    /* Neumorphic background */
+    color: #4D5B6B;
+    /* Soft dark color for text */
+    padding: 0.5em 1em;
+    border-radius: 16px;
+    box-shadow: 4px 4px 8px #a3b1c6,
+        /* Outer shadow */
+        -4px -4px 8px #ffffff;
+    /* Inner light */
+    transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #d1d9e6;
+    /* Slightly darker background on hover */
+    box-shadow: inset 5px 5px 10px #a3b1c6,
+        /* Inner shadow for pressed effect */
+        inset -5px -5px 10px #ffffff;
+}
